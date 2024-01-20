@@ -19,6 +19,19 @@ const Slider = () => {
                 spaceBetween={40}
                 slidesPerGroup={1}
                 loop={true}
+                breakpoints={
+                    {
+                        856: {
+                            slidesPerView: 3
+                        },
+                        600: {
+                            slidesPerView: 2
+                        },
+                        0: {
+                            slidesPerView: 1
+                        }
+                    }
+                }
             >
                 {SliderProducts.map((slide, i) => (
                     <SwiperSlide>

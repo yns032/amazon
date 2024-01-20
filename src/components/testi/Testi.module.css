@@ -79,3 +79,24 @@
 .testimonial>span:nth-of-type(2){
     font-weight: 500;
 }
+@media screen and (max-width:640px){
+    /* .container>:nth-child(1){
+        font-size: 0.5rem;
+    }
+    .container>:nth-child(2){
+        font-size: 0.5rem; 
+    }
+    .wrapper>img{
+        width: 12rem;
+    } */
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+        .wrapper>img{
+            width: 80vw;
+        }
+        .wrapper>:nth-child(3), .wrapper>:nth-child(1){
+            text-align: center;
+        }
+    }
+
