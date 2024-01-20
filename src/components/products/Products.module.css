@@ -53,3 +53,21 @@
     width: 6rem;
     height: 11rem;
 }
+
+@media screen and (max-width:856px){
+    .container{
+        gap: 1rem;
+    }
+    .container>:nth-child(1){
+        display: none;
+    }
+    .product{
+        width: 15rem;
+        height: 6rem;
+    }
+    .menu{
+        font-size: 10px;
+        margin-right: 5px;
+        
+    }
+}
